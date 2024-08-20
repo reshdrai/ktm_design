@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+header{
+ 
+    padding:2rem 11rem;
+    background-color: #06495E;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 48% 52%;
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.75);
+    /* border-radius: 10px; */
+}
+.left-grid{
+    padding: 4rem 4rem 0 4rem;
+    background: url('Exports/Rectangle 1.png');
+}
+.ktm-title img{
+    width: 150px;
+    height: 84.38px;
+}
+.down-grp{
+    padding: 2rem 1rem 2rem 4rem;
+}
+.title-down{
+    padding: 1.8rem 1.2rem;
+    width: 20vw;
+    height: 30vh;
+}
+.title-desc{
+    padding: 2rem 1.2rem 4rem 1.2rem;
+    color: #F05E06; 
+    font-size: 24px;
+    font-weight: 900; 
+    filter: drop-shadow(2px 2px 5px rgba(255, 255, 255));
+    width:470px;
+    line-height: 33.36px;
+    
+    
+}
+.social-media button{
+    margin: 3rem 0;
+
+    border-radius: 6px;
+    padding: 0.7rem;
+    font-size: medium;
+    background-color: #333333;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.social-media{
+    padding: 1.5rem 0 0 0;
+}
+.right-grid{
+    background-color: #FFEFD4;
+    display: flex;
+    position: relative;
+    
+}
+.grp-img1{
+    margin: 0 0.5rem 0 0;
+}
+.grp-img1 .img2{
+    width: 178.6px;
+    position: absolute;
+}
+.grp-img1 .img2 img{
+    width: 100%;
+}
+
+.grp-img2 .img3{
+    margin: 4.5rem 0 1rem 0 ;
+    width: 305px;
+}
+.grp-img2 .img3 img{
+    width: 100%;
+}
+.grp-img2 .img4{
+    margin: 6rem 0 0 0;
+    width: 305px;
+    position: absolute;
+}
+.grp-img2 .img4 img{
+    width: 100%;
+    /* padding: 0 0 0 1; */
+}
+.grp-img3 .img5{
+    margin: 0 0 0.8rem 0;
+    width: 0;
+    /* position: absolute; */
+}
+.grp-img2 .img5 img{
+    width: 100%;
+    /* padding: 0 0 0 1rem; */
+}
+.grp-img3 .img6{
+    margin: 8.95rem 0 0 0;
+    width: 320px;
+    
+    position: absolute;
+    /* bottom: 0; */
+}
+.grp-img2 .img6 img{
+    width: 100%;
+    
+}
+#sec1{
+    background-color: #000000;
+    padding: 8rem 11rem;
+    
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)); */
+    gap: 10rem;
+  
+}
+
+.overview{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 6rem 0 8rem 0;
+    
+}
+.overview div{
+    font-size: 40px;
+    line-height: 74px;
+}
+.view-file button{
+    color: white;
+    background-color: #000000;
+    outline: none;
+    padding: 0.6rem 1rem;
+    font-size: 40px;
+position: relative;
+border: none;
+
+}
+.view-file button::before,
+.view-file button::after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border-style:solid ;
+}
+button::before {
+    top: 0;
+    right: 0; 
+    border-width: 2px 2px 0 0; 
+    border-color: #0986B8 #0986B8 transparent transparent; 
+}
+button::after{
+    bottom: 0; 
+    left: 0; 
+    border-width: 0px 0px 2px 2px; 
+    border-color: transparent transparent #0986B8 #0986B8; 
+}
+#sec2{
+    background-color: #06495E;
+    color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.sec2-container{
+  position: relative;
+}
+.sec2-goal div{
+    font-size: 40px;
+    line-height: 74px;
+}
+.sec2-goal{
+    font-size: 28px;
+    line-height: 35.28px;
+    width: 50vw;
+    padding: 8rem 0 2rem 11rem;
+    
+}
+.project-details div{
+    
+    font-size: 40px;
+    line-height: 55.6px;
+}
+.project-details{
+    font-size: 28px;
+    line-height: 35.28px;
+    padding: 2rem 0 2rem 11rem;
+    /* margin: 6rem 0 0 0 ; */
+}
+.road-img{
+    width: 99.1vw;
+    
+}
+.road-img img{
+    width: 100%;
+}
+.images{
+    position: relative;
+}
+.bike{
+    position: absolute;
+    z-index: 1;
+    right: 200px;
+    bottom: 0;
+    width: 50rem;
+}
+.phone{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#sec3{
+    background-color: #000000;
+    padding: 6rem 11rem;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+}
+#sec3 .challenge{
+    color: #0986B8;
+    font-size: 64px;
+    line-height: 93.89px;
+}
+#sec3 .hero{
+    font-size: 42px;
+    line-height: 40px;
+}
+#sec3 span{
+    font-size: 32px;
+    font-weight: 600;
+}
